@@ -1,10 +1,9 @@
 <?php
 
-    class Fish extends Animal
+    class Turtle extends Animal
     {
         
         private $type;
-        private $color;
 
         public function setType($type)
         {
@@ -14,16 +13,6 @@
         public function getType()
         {
             return $this->type;
-        }
-
-        public function setColor($color)
-        {
-            $this->color = $color;
-        }
-
-        public function getColor()
-        {
-            return $this->color;
         }
 
         public function makeSound()
