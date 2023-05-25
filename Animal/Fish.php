@@ -31,4 +31,17 @@
             echo $this->getName() . " tidak bersuara \n";
         }
 
+        public function drink()
+        {
+            echo $this->getName() . " senang minum \n";
+        }
+
+        public function describe()
+        {
+            echo "Nama : " . $this->getName() . "\n";
+            echo "Umur : " . $this->getAge() . "\n";
+            echo "Jenis : " . $this->getType() . "\n";
+            echo "Warna : " . $this->getColor() . "\n";
+        }
+
     }

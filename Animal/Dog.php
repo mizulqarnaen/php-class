@@ -36,4 +36,12 @@
             echo $this->getName() . " senang bermain \n";
         }
 
+        public function describe()
+        {
+            echo "Nama : " . $this->getName() . "\n";
+            echo "Umur : " . $this->getAge() . "\n";
+            echo "Jenis : " . $this->getBreed() . "\n";
+            echo "Warna : " . $this->getColor() . "\n";
+        }
+
     }

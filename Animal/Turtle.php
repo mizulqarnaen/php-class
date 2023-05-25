@@ -20,4 +20,16 @@
             echo $this->getName() . " tidak bersuara \n";
         }
 
+        public function eat()
+        {
+            echo $this->getName() . " senang makan \n";
+        }
+
+        public function describe()
+        {
+            echo "Nama : " . $this->getName() . "\n";
+            echo "Umur : " . $this->getAge() . "\n";
+            echo "Jenis : " . $this->getType() . "\n";
+        }
+
     }
